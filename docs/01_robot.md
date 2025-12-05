@@ -8,8 +8,6 @@ The Turtlebot3 burger used in this workshop is modifed to have the following har
 
 A PC is used to connect to the robot. Most of the computation occurs on the robot, and the PC is used to interface with the robot. 
 
-# Table of Contents
-
 # 1&emsp;Robot Username, Team Number and ROS_DOMAIN_ID
 
 If the team number is 3, then take note of the following values. Please keep in mind that the robot username is in double digit form.
@@ -41,15 +39,12 @@ Connecting the monitor and keyboard is essential for finding out the IP address 
 | **With Keyboard and Monitor** | Connect the micro-HDMI cable, that is attached to the monitor, to the Raspberry Pi. Then connect the USB cable of the keyboard to the Raspberry Pi. |
 | **Without Keyboard and Monitor** | Simply disconnect both the monitor and the keyboard. |
 
-![]()
 
 # 4&emsp;Booting up the Robot
 1. Power the robot by using either the *tether* mode (advised) or the *battery* mode.
 2. Connect the robot to its peripherals (monitor and keyboard), if the IP address needs to be obtained, or if another Wi-Fi is to be connected. Otherwise, the peripherals need not be connected.
 3. Flick the switch on the OpenCR board to the right.
-    ![]()
 4. Wait for a melody to play from the OpenCR board, and then wait for about 15 to 20 seconds for the robot to start up. The raspberry Pi should have a non-blinking green light when it is ready.
-    ![]()
 
 # 5&emsp;Obtain the IP Address
 1. Ensure that the robot is powered up and connected to the peripherals (monitor and keyboard).

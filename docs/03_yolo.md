@@ -83,8 +83,8 @@ To save or overwrite from say `img010.jpg` onwards:
 
 # 3&emsp;Preparing The Dataset
 
-# 3.1&emsp;12 Images, 3 Image Classes
-12 different images of traffic signs are provided. 8 of the signs are directional (left or right), and 4 of the signs are QR codes.
+# 3.1&emsp;11 Images, 3 Image Classes
+11 different images of traffic signs are provided. 7 of the signs are directional (left or right), and 4 of the signs are QR codes.
 
 A total of 3 image classes are required. Take note of the class ID (an integer) associated with each class:
 
@@ -119,8 +119,8 @@ To capture different images of the same sign,
 3. Run `capture.sh` in `PCTerminalB`. Open a new terminal with `CTRL+ALT+T` if needed.
 
 4. Capture the images. Follow the method from the previous section to capture different images of the signs.
-    1. Capture 10 different images for every left directional sign, to a total of 80 different images. Ensure that the arrows of the directional signs are pointing left.
-    2. Capture 10 different images for every right directional sign, to a total of 80 different images. Ensure that the arrows of the directional signs are pointing right.
+    1. Capture 10 different images for every left directional sign, to a total of 70 different images. Ensure that the arrows of the directional signs are pointing left.
+    2. Capture 10 different images for every right directional sign, to a total of 70 different images. Ensure that the arrows of the directional signs are pointing right.
     3. Capture 20 different images for each QR code, to a total of 80 different images.
 
 5. Press `CTRL+C` on all three terminals when complete.
